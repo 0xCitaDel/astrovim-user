@@ -12,7 +12,11 @@
 #### Linux or MacOS (Unix)
 
 ##### Make a backup of your current user
-`mv ~/.config/nvim/lua/user ~/.config/nvim/lua/user.bak`
+```shell
+mv ~/.config/nvim/lua/user ~/.config/nvim/lua/user.bak
+```
 
 ##### Clone the repository
-`git clone --depth 1 https://github.com/0xCitaDel/astrovim-user.git $env:LOCALAPPDATA\nvim\lua\user`
+```shell
+git clone --depth 1 https://github.com/0xCitaDel/astrovim-user.git $env:LOCALAPPDATA\nvim\lua\user
+```
